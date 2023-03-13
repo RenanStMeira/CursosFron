@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--CSS-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--JS-->
+    <script src="js/script.js" defer></script>  
+    <script src="js/search.js" defer></script> 
+    <!--Fonts-->  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@0,300;0,500;1,600&display=swap" rel="stylesheet">
+    <!--style page-->
+    <style>
+        #navlist, footer, button {
+            background-color: rgb(32, 205, 228);
+        }
+    </style>
+    <title>Front-End</title>
+</head>
+<body>
+
+    <header>
+        <div id="navlist">
+            <ul class="list">
+                <li><a href="index.html" >Inicio</a></li>
+                <li><a href="htmlPage.html" >Html</a></li>
+                <li><a href="javascript.html" >Javascript</a></li>
+                <li><a href="pageCSS.html" >CSS</a></li>
+                <li><a href="pageAngular.html" >Angular</a></li>
+                <li><a href="pageVue.html" >Vue</a></li>
+                <div class="search">
+                    <form action="#">
+                        <input class="search" type="text"
+                            placeholder=" Procurar "
+                            name="search">
+                    </form>
+                </div>
+            </ul> 
+        </div>
+    </header>
+    
+    <main>
+        <div class="container">
+            <ul class="caixa">
+                <li>
+                    <h1>Instalando o React</h1>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Jg6JaEjovJk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                </li>
+                <li>
+                    <h1>Entendendo o JSX </h1>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/9iKNxnFJY_Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </li>
+                <li>
+                    <h1>Seletores, Fontes e Cores</h1>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Ex0UvBGsvqc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </li>
+                <li>
+                    <h1>Criando componentes no React</h1>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/-wrsG0IGc-M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </li>
+                <li>
+                    <h1>Trabalhando com props </h1>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/ZLtBdpwg8tI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </li>
+                <li>
+                    <h1>Inserindo CSS no React</h1>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/20hlPRPVMoU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </li>
+        </div>
+    </main>
+    
+    <footer>
+        <h3>Deixe sua mensagem</h3>
+        <form id="form">
+            <ul>
+              <li>
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="user_name" />
+              </li>
+              <li>
+                <label for="mail">Email:</label>
+                <input type="email" id="email" name="user_email" />
+              </li>
+              <li>
+                <label for="msg">Mensagem:</label>
+                <textarea id="msg" name="user_message"></textarea>
+
+                <button type="submit">Enviar</button>
+              </li>
+            </ul>
+          </form>
+    </footer>
+</body>
+</html>
